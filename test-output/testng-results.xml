@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15596" started-at="2021-02-08T19:46:23 IST" finished-at="2021-02-08T19:46:38 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="10063" started-at="2021-02-08T19:46:23 IST" finished-at="2021-02-08T19:46:33 IST">
+      <class name="mypack.Test3">
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mypack.Test3@e720b71]" name="method1" duration-ms="10040" started-at="2021-02-08T19:46:23 IST" finished-at="2021-02-08T19:46:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:5556/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- mypack.Test3 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5519" started-at="2021-02-08T19:46:33 IST" finished-at="2021-02-08T19:46:38 IST">
+      <class name="mypack.Test3">
+        <test-method status="PASS" signature="method1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:mypack.Test3@22eeefeb]" name="method1" duration-ms="5514" started-at="2021-02-08T19:46:33 IST" finished-at="2021-02-08T19:46:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://localhost:5556/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- mypack.Test3 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
