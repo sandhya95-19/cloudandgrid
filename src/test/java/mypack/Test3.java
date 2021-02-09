@@ -11,13 +11,13 @@ public class Test3
 {
 	@Test
 	@Parameters({"url","bn","url1"})
-	public void method1(String x,String y,String z) throws Exception
+	public void method1(String x,String y,String w) throws Exception
 	{
 		URL u=new URL(x);
 		DesiredCapabilities dc=new DesiredCapabilities();
 		dc.setBrowserName(y);
 		RemoteWebDriver driver=new RemoteWebDriver(u,dc);
-		driver.get(z);
+		driver.get(w);
 		driver.close();
 	}
 
